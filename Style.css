@@ -37,14 +37,17 @@ span{
     
 }
 .heroleft {
-    border: 1px solid rgb(14, 13, 13);
+    border: transparent;
     height: 300px;
     width: 250px;
 }
 .heroright{
-    border: 1px solid rgb(14, 13, 13);
+    border: 2px solid rgb(14, 13, 13);
     height: 300px;  
     width: 250px;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    margin-top: 5px;
 }
 .contain {
     display: flex;
@@ -52,5 +55,69 @@ span{
     margin-top: 20px;
     
 }
+.explore-btn{
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color:rgb(18, 18, 17);
+    background-color: rgb(220, 125, 16);
+    border: none;
+    border-radius : 8px ;
+    cursor: pointer;
+}
+.video-btn{
+    margin-left: 13px;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color:rgb(18, 18, 17);
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    border: none;
+    border-radius : 8px ;
+    cursor: pointer;
+}
+.down {
+    margin-top: 20px;
+    display: flex;
+    color: aliceblue;
+    gap: 20px;
+    
+
+}
+.heroright h1{
+    font-size: 15px;
+    padding: 2px;
+    font-weight: bold;
+}
+.field{
+    margin-top: 20px;
+}
+.heroright p{
+    font-size: 10px;
+    color:black
+    
+}
+.search-btn{
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 10px;
+    font-weight: bold;
+    color:rgb(18, 18, 17);
+    background-color: rgb(220, 125, 16);
+    border: none;
+    border-radius : 8px ;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 30px;
+
+}
+.BASE {
+    align-items: ;
+}
+
+
+
 
 
