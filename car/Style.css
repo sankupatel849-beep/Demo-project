@@ -4,11 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+.main{
     background-image: url("https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyfGVufDB8fDB8fHww");
     background-repeat:no-repeat;
     background-size: cover;
     height: 100vh;
+    
+    
 }
 .nav{
     background-color: brown;
@@ -101,7 +103,8 @@ span{
 }
 .heroright p{
     font-size: 10px;
-    color:black
+    color:black;
+    margin: 10px;
     
     
 }
@@ -139,13 +142,448 @@ select {
     margin-right: 20px;
     padding: 15px;
 }
-i {
+.heroright i {
     font-size: 12px;
     border: 1px solid;
        padding: 2px;
-
+}
+small {
+    border: 2px solid;
+    border-radius: 20px;
+    margin-bottom: 70px;
+    padding: 5px;
+    
     
 }
+section{
+    padding: 30px;
+   
+
+}
+.car-container {
+    height: 330px;
+    width: 250px;
+    border: 2px solid;
+    border-radius: 15px;
+
+}
+.im {
+     height: 150px;
+    width: 100%;
+    border: transparent;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px 15px 0 0    ;
+
+}
+.centre {
+    height: 60px;
+    width: 245px;
+    border: transparent;
+    margin-top: 4px;
+    
+}
+.centre span {
+    color: aliceblue;
+}
+
+.bottom {
+    height: 70px;
+    width: 245px;
+    border: transparent;
+    margin-top: 20px;
+    display: flex;
+    
+
+}
+section h1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+section p {
+    margin-bottom: 10px;
+}
+a {
+    display: flex;
+    text-align: right;
+    justify-content:right ;
+    font-weight: 300;
+    
+    text-decoration: none;
+}
+a:hover {
+    font-style: italic;
+    color: rgb(91, 170, 240);
+    text-decoration: underline;
+
+}
+.centre small {
+    border: none;
+    font-size: 1em ;
+    font-family: sans-serif;
+    
+
+}
+ .im h4 {
+    position: absolute;
+    top: 0;
+    color: rgb(15, 18, 18);
+    border-radius: 15px ;
+    background-color: rgb(191, 218, 165);
+    margin: 7px;
+    padding: 3px;
+    font-size: 11px;
+}
+i {
+    position: absolute;
+    top: 10;
+    color: rgb(61, 211, 106);
+    border-radius: 15px ;
+    background-color: rgb(191, 218, 165);
+    margin: 7px;
+    padding: 3px;
+    font-size: 11px;
+    
+}
+.bottom-left small {
+    border: none;
+    font-weight: 400;
+    font-size: 1em;
+}
+.bottom-left span {
+    padding: 5px;
+    font-size: 1.5em;
+    color: solid peru;
+}
+.bottom button {
+    margin-left: 50px;
+    padding: 3px;
+    cursor: pointer;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 8px;
+}
+.bottom button:hover {
+    color: aliceblue;
+    background-color: rgb(53, 52, 52);
+}
+
+.car-container:hover{
+    color: red;
+}
+.centre h5 {
+    padding: 5px;
+    color: orange;
+}
+.centre h2{
+    font-size: 1.2em;
+    padding: 4px;
+}
+.centre span {
+    margin: 5px;
+    color: orange;
+}
+
+.allcars {
+    display: flex;
+   
+}
+.car-container2 {
+    margin: 10px;
+    border: 2px solid;
+    height: 330px;
+    border-radius: 15px;
+}
+.car-container2:hover{
+    color: red;
+}
+
+.centre2 h5 {
+    padding: 5px;
+    color: orange;
+}
+.centre2 h2{
+    font-size: 1.2em;
+    padding: 4px;
+}
+.centre2 span {
+    margin: 5px;
+    color: orange;
+}
+
+
+.car-container3 {
+    margin: 10px;
+    border: 2px solid;
+    height: 330px;
+    border-radius: 15px;
+}
+.car-container3:hover {
+    color: red;
+}
+
+.centre3 h5 {
+    padding: 5px;
+    color: orange;
+}
+.centre3 h2{
+    font-size: 1.2em;
+    padding: 4px;
+}
+.centre3 span {
+    margin: 5px;
+    color: orange;
+}
+
+
+.im2{
+    height: 150px;
+    width: 100%;
+    border: transparent;
+    position: relative;
+    overflow: hidden;
+     object-fit: cover;
+    display: block;
+    border-radius: 15px 15px 0 0    ;
+    
+
+}
+.im2 h4 {
+    position: absolute;
+    top: 0;
+    color: rgb(15, 18, 18);
+    border-radius: 15px ;
+    background-color: rgb(191, 218, 165);
+    margin: 7px;
+    padding: 3px;
+    font-size: 11px;
+}
+.centre2 span {
+    border: none;
+}
+.bottom2 {
+     border: none;
+     display: flex;
+     margin-top: 17px;
+}
+.bottom2 button {
+    margin-left: 50px;
+    padding: 3px;
+    cursor: pointer ;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 8px;
+    
+}
+.bottom2 button:hover {
+    color: aliceblue;
+    background-color: rgb(53, 52, 52);
+}
+
+.bottom-left2 span {
+    padding: 5px;
+    font-size: 1.5em;
+    color: solid peru;
+    border: none;
+}
+.im3{
+    height: 150px;
+    width: 100%;
+    border: transparent;
+    position: relative;
+    overflow: hidden;
+     object-fit: cover;
+    display: block;
+    border-radius: 15px 15px 0 0    ;
+    
+
+}
+.im3 h4 {
+    position: absolute;
+    top: 0;
+    color: rgb(15, 18, 18);
+    border-radius: 15px ;
+    background-color: rgb(191, 218, 165);
+    margin: 7px;
+    padding: 3px;
+    font-size: 11px;
+}
+.bottom3 {
+     border: none;
+     display: flex;
+     margin-top: 17px;
+}
+.bottom3 button {
+    margin-left: 50px;
+    padding: 3px;
+    cursor: pointer;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 8px;
+    
+}
+.bottom3 button:hover {
+    color: aliceblue;
+    background-color: rgb(53, 52, 52);
+}
+
+.bottom-left3 span {
+    padding: 5px;
+    font-size: 1.5em;
+    color: solid peru;
+    border: none;
+}
+.bottom3 small {
+    border: none;
+}
+section {
+    background-color: rgb(86, 83, 83);
+    height: 100vh;
+    width: 100vw;
+}
+.thirdpage {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(54, 53, 53);
+    display: 
+    align-items: cent
+    justify-content: space-between;
+}
+.thirdpage h1 {
+    color: aliceblue;
+   margin-left: 50px;
+    font-size: 1.7em;
+    padding: 10px 0px;
+    
+}
+.thirdpage p {
+padding: 10px 0px;
+color: rgb(253, 252, 251);
+ margin-left: 50px;
+}
+.thirdpage button {
+    height: 6vh;
+    padding: 8px;
+    width: 18vw;
+    font-size: 0.8em;
+    font-weight: bold;
+    color:rgb(18, 18, 17);
+    background-color: rgb(220, 125, 16);
+    border: none;
+    border-radius : 8px ;
+    cursor: pointer;
+    margin-left: 40px;
+    margin: 80px 20px
+
+}
+.thirdpage button:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.Zeroleft {
+    height: 400px;
+    width: 400px;
+    border: transparent;
+}
+.Zeroleft h3 {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 1.7em;
+}
+.Zeroleft h4 {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 1.6em;
+    color: rgb(184, 121, 3);
+    font-weight: bold;
+}
+.Zeroleft p {
+    margin: 7px;
+    font-size: 0.8em;
+}
+.finance h5{
+
+margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 1.2em;
+    color: rgb(121, 80, 4);
+    font-weight: bold;
+}
+.finance button {
+    margin: 20px;
+    font-weight: 600;
+    border: 1.5px solid;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: rgb(231, 165, 41);
+    cursor: pointer;
+
+}
+.finance button:hover {
+   background-color: rgb(110, 63, 4);
+   color: aliceblue;
+}
+.Zeroright {
+     height: 400px;
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 10px;
+    backdrop-filter: blur 5px;
+}
+.Zero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Zeroright h3 {
+margin: 6px;
+}
+.Zeroright p {
+    margin-left: 6px;
+    font-size: 0.8em;
+}
+.Zeroright h2 {
+    margin-left: 6px;
+}
+
+
+
+.loan {
+    height: 50px;
+    width: 140px;
+    border: 2px solid;
+    margin: 10px;
+    border-radius:7px;
+    padding: 5px;
+}
+.loan2 {
+    height: 50px;
+    width: 140px;
+    border: 2px solid;
+    margin: 10px;
+    border-radius:7px;
+    padding: 5px;
+}
+.loan3 {
+    
+     height: 70px;
+    width: 320px;
+    border: 2px solid;
+    margin: 10px;
+    border-radius:7px;
+    padding: 5px;
+    background-color: rgb(225, 176, 86)
+}
+.Zeroright span {
+    font-size: 0.5em;
+    margin-left: 45px;
+    margin-top: 4px;
+    color: rgb(118, 116, 116);
+}
+
 
 
 
