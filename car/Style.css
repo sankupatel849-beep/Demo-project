@@ -445,7 +445,7 @@ section {
 }
 .thirdpage {
     width: 100%;
-    height: 100%;
+    height: 130vh;
     background-color: rgb(54, 53, 53);
     display: 
     align-items: cent
@@ -469,7 +469,7 @@ color: rgb(253, 252, 251);
     width: 18vw;
     font-size: 0.8em;
     font-weight: bold;
-    color:rgb(18, 18, 17);
+    color:rgb(205, 205, 202);
     background-color: rgb(220, 125, 16);
     border: none;
     border-radius : 8px ;
@@ -583,11 +583,128 @@ margin: 6px;
     margin-top: 4px;
     color: rgb(118, 116, 116);
 }
+.fourthpage {
+    width: 100%;
+    height: 115vh;
+    background-color: rgb(30, 29, 29);
+}
+.fourthpage h1 {
+    color: aliceblue;
+    text-align: center;
+    border-bottom: 1px solid rgb(250, 247, 247);
+    width: 100%;
 
+}
+.para {
+    text-align: center;
+    color: aliceblue;
+    font-size: 0.9em;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 30px;
+    border-bottom: 1px solid rgb(14, 13, 13);
+    margin-bottom: 20px;
+}
+.box  {
+    background-color:  #222;
+    padding: 25px;
+    border-radius: 12px;
+    min-height: 180px;
+}
+.box h2 {
+    background-color: #c5700f;
+    display: inline-block;
+    padding: 6px;
+    border-radius: 10px;
+    border: 0.7px solid;
+    margin-bottom: 5px;
+}
+.box h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+.box p {
+    color: #8d8c8c;
+    font-size: 15px;
+    line-height: 1;
+}
 
+h5 {
+    text-align: center;
+    font-size: 0.6em;
+    color: rgb(153, 156, 156);
+}
+.fifthpage {
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    height: 115vh;
+}
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    
+}
+.head5 {
+    color: aliceblue;
+    margin: 20px;
+    text-decoration: solid;
+    font-size: 1em;
+}
+h1 {
+    margin-bottom: 5px;
+    font-size: 2em;
+    margin-left: 90px;
+}
+.head5 p {
+    font-size: 0.8em;
+    margin-left: 90px;
+}
+.form input{
+    padding: 7px;
+    width: 200px;
+    
+    background-color: rgb(43, 43, 42);
+    border: none;
+    color: rgb(219, 230, 230);
 
+}
+button {
+    padding: 5px;
+    margin-right: 100px;
+    width: 140px;
+    background-color: orange;
+    border: none;
+    font-size: 1em;
+    border-radius: 0 5px 5px 0;
+    text-decoration: solid;
+}
+button:hover {
+    cursor: pointer;
+    background-color: beige;
+    
+}
+.content {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+    margin: 25px;
+    gap: 25px;
+    padding-top: 35px;
+    color: azure;
+    
+}
+.content h3 {
+    margin-bottom: 20px;
 
-
+}
+p {
+    line-height: 1.8;
+}
 
 
 
